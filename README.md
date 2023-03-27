@@ -1,5 +1,4 @@
-Project Name
-[Insert project name here]
+# DNA Query Tool 
 
 Description
 [Insert a brief description of the project here]
