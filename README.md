@@ -1,14 +1,14 @@
 # DNA Query Tool 
 
 ## Description
-This is a Python program that retrieves information about genes and their corresponding rsids from a PostgreSQL database. The program takes user input for a gene id and a model weight, and then outputs information about the gene and rsids with weights higher than the input weight.
+This is a Python program that retrieves information about genes and their corresponding rsids from a PostgreSQL database. The program takes user input for a gene id and a model weight, and then outputs information about the gene and rsids with weights higher than the input weight. This project in particular showcases one's ability to build a functional database application that can handle user input and retrieve information based on specific criteria.
 
 ## Getting Started
 
 ### Installing
 Before running the program, make sure you have the following installed:
 
-Python 3.6 or later
+Python 3.9 or later
 psycopg2 module (you can install it using pip install psycopg2)
 PostgreSQL database
 Once you have installed these dependencies, you can download the program and run it using the command python gene_info_db.py.
