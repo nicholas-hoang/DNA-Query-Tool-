@@ -21,21 +21,24 @@ If you want to query another gene, you can enter 'y' when prompted, and the prog
 ### Database schema
 The program assumes that the PostgreSQL database has the following schema:
 
-genes table
-Column name	Data type
-geneid	text
-gene_name	text
-proteinid	text
-protein_size	integer
-protein_desc	text
-weights table
-Column name	Data type
-rsid	text
-geneid	text
-weight	numeric
+Genes table: 
 
-Version History
-[Insert a list of the project's version history here]
+| Column name  | Data type     |
+| -------------| ------------- |
+| geneid       | text          |
+| gene_name    | text          |
+| proteinid    | text          | 
+| protein_size | integer       |
+| protein_desc | text.         |
+
+Weights Table: 
+
+| Column name  | Data type     |
+| -------------| ------------- |
+| rsid         | text          |
+| gene_id      | text          |
+| weight       | numeric       | 
+
 
 ### License
 This program is licensed under the MIT License. Feel free to modify and distribute it as you see fit.
